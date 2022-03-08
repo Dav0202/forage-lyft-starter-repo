@@ -9,7 +9,6 @@ from utils import add_years_to_date
 
 class TestBattery(unittest.TestCase):
     
-    
     def test_nubbinbattery_need_service(self):
         print('test nubbin battery need service')
         current_date = datetime.date.today()
